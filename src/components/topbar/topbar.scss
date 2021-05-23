@@ -7,7 +7,8 @@
     width: 100%;
     position: fixed;
     top: 0;
-    z-index: 2;
+    z-index: 3;
+    transition: all 1s ease;
 
     .wrapper{
         padding: 10px 30px;
@@ -23,7 +24,7 @@
                font-size: xx-large; 
                font-weight: 700;
                text-decoration: none;
-               color: white;
+               color: inherit;
                margin-right: 40px ;
             }
 
@@ -36,13 +37,13 @@
             .icon{
                 font-size: 18px;
                 margin-right: 5px;
-                color: white;
+                color: inherit;
             }
 
             .span{
                 font-size: 15px;
                 font-weight: 600;
-                color: $mainColor;
+                color: white;
             }
         } 
 
